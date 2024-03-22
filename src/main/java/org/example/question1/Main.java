@@ -19,10 +19,10 @@ public class Main {
 
     public static Map<Employee, Address> createSampleData() {
         Map<Employee, Address> employeeAddressMap = new HashMap<>();
-        // Add sample data
-        employeeAddressMap.put(new Employee(1, "John"), new Address(101, "Main St", "New York", 10001));
-        employeeAddressMap.put(new Employee(2, "Alice"), new Address(202, "Park Ave", "Los Angeles", 90001));
-        employeeAddressMap.put(new Employee(3, "Bob"), new Address(303, "Broadway", "Chicago", 60601));
+       
+        employeeAddressMap.put(new Employee(1, "John"), new Address(101, "Vidya nagar", "Hyderabad", 10001));
+        employeeAddressMap.put(new Employee(2, "Alice"), new Address(202, "Saraswati nagar", "Suryapet", 90001));
+        employeeAddressMap.put(new Employee(3, "Santhoshi"), new Address(303, "Ambedhkar nagar", "Nalgonda", 60601));
         return employeeAddressMap;
     }
 
